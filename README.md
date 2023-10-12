@@ -11,6 +11,7 @@ oc new-app -e REDIS_PASSWORD=airflow --name airflow-redis redis:6-el9
 ## Deploy Airflow
 
 ```shell
+helm repo add apache-airflow https://airflow.apache.org
 helm upgrade --install airflow apache-airflow/airflow --namespace airflow --values values.yml
 ```
 ## Expose Airflow
