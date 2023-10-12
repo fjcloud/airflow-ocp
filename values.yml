@@ -1,0 +1,17 @@
+securityContexts: {}
+
+workers:
+  securityContexts: {}
+
+redis:
+  persistence:
+    enabled: false
+
+postgresql:
+  enabled: false
+
+data:
+  metadataConnection:
+    host: psql-airflow
+    user: postgres
+    pass: airflow
