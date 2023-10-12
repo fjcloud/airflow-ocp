@@ -12,6 +12,6 @@ postgresql:
 
 data:
   metadataConnection:
-    host: psql-airflow
+    host: airflow-psql
     user: postgres
     pass: airflow
