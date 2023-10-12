@@ -5,7 +5,7 @@
 ```shell
 oc new-project airflow
 oc new-app -e POSTGRESQL_ADMIN_PASSWORD=airflow --name airflow-psql postgresql:13-el9
-oc new-app -e REDIS_PASSWORD=airflow --name redis-airflow redis:6-el9
+oc new-app -e REDIS_PASSWORD=airflow --name airflow-redis redis:6-el9
 ```
 
 ## Deploy Airflow
