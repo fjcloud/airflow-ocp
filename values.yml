@@ -10,6 +10,7 @@ postgresql:
   enabled: false
 
 data:
+  brokerUrl: redis://:airflow@airflow-redis
   metadataConnection:
     host: airflow-psql
     user: postgres
