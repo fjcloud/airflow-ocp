@@ -4,9 +4,8 @@ workers:
   securityContexts: {}
 
 redis:
-  persistence:
-    enabled: false
-
+  enabled: false
+  
 postgresql:
   enabled: false
 
