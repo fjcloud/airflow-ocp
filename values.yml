@@ -1,13 +1,12 @@
-securityContexts: {}
-
-workers:
-  securityContexts: {}
-
 redis:
   enabled: false
   
 postgresql:
   enabled: false
+
+rbac:
+  create: true
+  createSCCRoleBinding: true
 
 data:
   brokerUrl: redis://:airflow@airflow-redis
