@@ -20,3 +20,4 @@ dags:
     enabled: true
     repo: https://github.com/fjcloud/airflow-dags.git
     branch: main
+    subPath: /
